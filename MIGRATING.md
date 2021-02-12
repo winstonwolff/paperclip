@@ -51,6 +51,7 @@ Make sure to exclude your locally stored files from version control.
 For instance, if you're using Git, add `storage/` to your `.gitignore`.
 
 ```diff
+  # .gitignore
   !.keep
   /.bundle
   /.byebug_history
